@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad"
+    tools:context=".Arms">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginLeft="47dp"
+            android:text="ARMS WORKOUTS"
+            android:textSize="28dp"
+            android:textColor="#FFEB3B"
+            app:fontFamily="@font/blackopsoneregular" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#FFFF">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="0dp"
+                android:text="BICEPS"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                app:fontFamily="@font/exobold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="58dp"
+                android:layout_marginTop="46dp"
+                android:text="BRICK UP"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:fontFamily="@font/exoextrabolditalic" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-2dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/arms150" />
+
+            <Button
+                android:id="@+id/biceps"
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/buttonshape"
+                android:text="Start"
+                android:textSize="22dp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:background="#FFFF">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="59dp"
+                android:layout_marginTop="0dp"
+                android:text="TRICEPS"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                app:fontFamily="@font/exobold" />
+
+            <Button
+                android:id="@+id/triceps"
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/buttonshape"
+                android:text="Start"
+                android:textSize="22dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginTop="47dp"
+                android:text="GET SHREDDED"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:fontFamily="@font/exoextrabolditalic" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginBottom="-1dp"
+                android:src="@drawable/tri150" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:background="#FFFF">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="0dp"
+                android:text="FOREARMS"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                app:fontFamily="@font/exobold" />
+
+            <Button
+                android:id="@+id/forearms"
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/buttonshape"
+                android:text="Start"
+                android:textSize="22dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="45dp"
+                android:text="STRENGTH OF A LION"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:fontFamily="@font/exoextrabolditalic" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginBottom="-1dp"
+                android:src="@drawable/hands150" />
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+

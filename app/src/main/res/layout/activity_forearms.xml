@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad"
+    tools:context=".Forearms">
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="FOREARMS WORKOUTS"
+            android:layout_marginLeft="35dp"
+            android:textColor="#FFEB3B"
+            android:textSize="25dp"
+            app:fontFamily="@font/blackopsoneregular" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#FFFF">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="61dp"
+                android:layout_marginTop="9dp"
+                android:text="BACK CURL"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/exobold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="52dp"
+                android:text="8 REPS OR 12 REPS"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:fontFamily="@font/exoextrabolditalic" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="161dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-2dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/wrist1" />
+
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:background="#FFFF">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="66dp"
+                android:layout_marginTop="11dp"
+                android:text="WRIST CURL"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/exobold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="52dp"
+                android:text="8 REPS OR 12 REPS"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:fontFamily="@font/exoextrabolditalic" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="161dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-2dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/wrist2" />
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+

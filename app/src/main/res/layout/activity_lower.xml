@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad"
+    tools:context=".Lower">
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="LOWER BODY WORKOUTS"
+            android:textSize="28dp"
+            android:textColor="#FFEB3B"
+            app:fontFamily="@font/blackopsoneregular" />
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#FFFF">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="85dp"
+                android:layout_marginTop="3dp"
+                android:text="THIGH"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                app:fontFamily="@font/exobold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="66dp"
+                android:layout_marginTop="48dp"
+                android:text="STAND STILL"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:fontFamily="@font/exoextrabolditalic" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-2dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/thi150" />
+
+            <Button
+                android:id="@+id/thigh"
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/buttonshape"
+                android:text="Start"
+                android:textSize="22dp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:background="#FFFF">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="87dp"
+                android:layout_marginTop="0dp"
+                android:text="LEGS"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                app:fontFamily="@font/exobold" />
+
+            <Button
+                android:id="@+id/legs"
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/buttonshape"
+                android:text="Start"
+                android:textSize="22dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="45dp"
+                android:text="NEVER SKIP LEG DAY"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:fontFamily="@font/exoextrabolditalic" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginBottom="-1dp"
+                android:src="@drawable/legs150" />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:background="#FFFF">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="94dp"
+                android:layout_marginTop="2dp"
+                android:text="BUTT"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                app:fontFamily="@font/exobold" />
+
+            <Button
+                android:id="@+id/knees"
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/buttonshape"
+                android:text="Start"
+                android:textSize="22dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="76dp"
+                android:layout_marginTop="44dp"
+                android:text="BE THE SOLDIER"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:fontFamily="@font/exoextrabolditalic" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginBottom="-1dp"
+                android:src="@drawable/knees150" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:background="#FFFF">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="94dp"
+                android:layout_marginTop="2dp"
+                android:text="HIPS"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                app:fontFamily="@font/exobold" />
+
+            <Button
+                android:id="@+id/hips"
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/buttonshape"
+                android:text="Start"
+                android:textSize="22dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="78dp"
+                android:layout_marginTop="44dp"
+                android:text="BE FLEXIBLE"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:fontFamily="@font/exoextrabolditalic" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginBottom="-1dp"
+                android:src="@drawable/hips150" />
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

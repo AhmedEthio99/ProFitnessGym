@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad"
+    tools:context=".Thigh">
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="THIGH WORKOUTS"
+            android:layout_marginLeft="50dp"
+            android:textColor="#FFEB3B"
+            android:textSize="28dp"
+            app:fontFamily="@font/blackopsoneregular" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#FFFF">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="9dp"
+                android:text="LEG EXTENSIONS"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/exobold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="52dp"
+                android:text="10 REPS OR 14 REPS"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:fontFamily="@font/exoextrabolditalic" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="161dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-2dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/legextension" />
+
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:background="#FFFF">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="7dp"
+                android:text="SLED HACK SQUAT"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/exobold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="52dp"
+                android:text="8 REPS OR 12 REPS"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:fontFamily="@font/exoextrabolditalic" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="161dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-2dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/sledhacksquat" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:background="#FFFF">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="54dp"
+                android:layout_marginTop="9dp"
+                android:text="SQUAT BARBELL"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/exobold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="52dp"
+                android:text="10 REPS OR 12 REPS"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:fontFamily="@font/exoextrabolditalic" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="161dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-2dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/squatbarbbell" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:background="#FFFF">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="7dp"
+                android:text="GOBLET CURTSEY LUNGE"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/exobold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="52dp"
+                android:text="10 REPS OR 12 REPS"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:fontFamily="@font/exoextrabolditalic" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="161dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-2dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/dumbbellgobletcurtseylunge" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:background="#FFFF">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="9dp"
+                android:text="SUMO DEADLIFT"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/exobold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="52dp"
+                android:text="8 REPS OR 12 REPS"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:fontFamily="@font/exoextrabolditalic" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="161dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-2dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/barbellsumodeadlift" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:background="#FFFF">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="37dp"
+                android:layout_marginTop="10dp"
+                android:text="LATERAL STEPUP"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/exobold" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="52dp"
+                android:text="8 REPS OR 12 REPS"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                app:fontFamily="@font/exoextrabolditalic" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="161dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-2dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/dumbbelllateralstepup" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
